@@ -1,4 +1,7 @@
 package org.isa.discount.system;
 
-public class Discount {
+public abstract class Discount {
+
+    public abstract double applyDiscount(double totalAmount);
+    public abstract String getDescription();
 }
