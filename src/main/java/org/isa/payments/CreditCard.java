@@ -13,7 +13,6 @@ public class CreditCard extends PaymentMethod {
 
     @Override
     public void processPayment(double amount) {
-        System.out.println("Cobrando $" + amount + " a la tarjeta de crédito terminada en: "
-                number + "con el CVV " + cvv );
+        System.out.println("Cobrando " + amount + " a la tarjeta de crédito terminada en: " + number + "con el CVV " + cvv );
     }
 }
