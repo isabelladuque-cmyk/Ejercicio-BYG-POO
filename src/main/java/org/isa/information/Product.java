@@ -2,5 +2,16 @@ package org.isa.information;
 
 public class Product {
     String name;
-    int price;
+    double price;
+
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+    public String getName() {
+        return name;
+    }
+    public double getPrice() {
+        return price;
+    }
 }

@@ -9,6 +9,6 @@ public class PayPal extends PaymentMethod {
 
     @Override
     public void processPayment(double amount) {
-        System.out.println("Cobrando "+ amount+ "a la cuenta PayPal con el email "+ email);
+        System.out.println("Cobrando "+ amount+ " a la cuenta PayPal con el email "+ email);
     }
 }
